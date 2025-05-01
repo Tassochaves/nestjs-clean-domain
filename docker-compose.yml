@@ -1,6 +1,6 @@
 services:
   postgres:
-    container_name: nest-clean-postgres
+    container_name: nest-clean-domain
     image: postgres
     ports:
       - 5432:5432
